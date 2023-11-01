@@ -1,0 +1,30 @@
+------->>>>>   map : 
+                - map function will be return the values.
+                - map will be usefor the arrays.
+                -[] , [{},{},{}] , [ [], [], [] ]
+
+                Syntax : 
+                    Data_Type variable_Name = array_Name.map(function(){})
+                    Data_Type variable_Name = array_Name.map( () => ())
+                    Data_Type variable_Name = array_Name.map( () => )
+
+------->>>>>   filter : 
+                - filter function will be return the values.
+                - filter function will be useed in the arrays.
+                - [] , [{},{},{}] , [ [], [], [] ]
+
+                Syntex : 
+                    Data_Type variable_Name = Arrays.filter( () => () )
+                    Data_Type variable_Name = Arrays.filter( () => )
+                    Data_Type variable_Name = Arrays.filter( function(){} )
+
+
+------->>>>>   Reduce :
+                - Reduce function will be return the values.
+                - Reduce is used in the arrays.
+                - general example of the Reduce is shopingCart at the time of total we use reduce function.
+                - [] , [{},{},{}] , [ [], [], [] ].
+                - Syntax: 
+                    Data_Type variable_Name = Array_Name.reduce( (prevalues, currrValues) => () ,prevalues )
+                    Data_Type variable_Name = Array_Name.reduce( (prevalues, currrValues) =>   ,prevalues )
+                    Data_Type variable_Name = Array_Name.reduce( function(prevalues, currrValues) {} , preValues )

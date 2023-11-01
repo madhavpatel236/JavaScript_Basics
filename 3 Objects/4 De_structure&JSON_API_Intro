@@ -1,0 +1,30 @@
+const name = {
+    FirstName : 'Madhav' ,
+    LastName : 'Karavadiya' ,
+    Contact : 9722919177
+}
+
+// name.LastName
+
+// const {LastName} = name;
+// console.log(LastName);
+// console.log(FirstName);
+
+const {LastName : SurName} = name;
+console.log(SurName);
+// console.log(FirstName);
+
+
+// // +++++++++++++++++++++++++++ JSON API ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// {
+//     "name" : "Madhav",
+//     "Contect" : "9722919177" , 
+//     "Brother" : "Parth"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
