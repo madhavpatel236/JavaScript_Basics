@@ -2,7 +2,7 @@
 
 const num = [1,2,3,4,5,6]
 
-console.log("Forof----------------------------------------------");
+console.log("---------------------Forof-------------------------");
 for (const item of num) {
     console.log(item);
 }

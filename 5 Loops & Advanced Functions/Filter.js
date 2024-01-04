@@ -1,13 +1,12 @@
-
 // +++++++++++++++++++++++++++++++++++++ filter +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 /* Syntex : 
 Arrays.filter( () => () )
 Arrays.filter( () => )
-Arrays.filter( function(){} ) */
+Arrays.filter( function(){  .....return .... } ) */
+// in the filter we will use the function as the condition.
 
-
-// // filter function return the values and from save the filter values in the variable we can fetch this values at any where.
+// filter function return the values and from save the filter values in the variable we can fetch this values at any where.
 
 const num = [1,2,3,4,5,6,7,8,9]
 
