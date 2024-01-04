@@ -1,3 +1,5 @@
+// suppose if we use the any objects items for a multiple times for Example below name.LastName so every time we will write the same thigs instand of these we will destucture the object and write only LastName or SurName.
+
 const name = {
     FirstName : 'Madhav' ,
     LastName : 'Karavadiya' ,
@@ -10,7 +12,7 @@ const name = {
 // console.log(LastName);
 // console.log(FirstName);
 
-const {LastName : SurName} = name;
+const {LastName : SurName} = name;  // in the {Lastname : Surname} is the called as a destucturing of the objects.
 console.log(SurName);
 // console.log(FirstName);
 

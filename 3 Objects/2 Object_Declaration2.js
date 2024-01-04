@@ -27,7 +27,7 @@ const obj1 = {1:"one" , 2:"Two"}
 const obj2 = {3:"Three" , 4:"Four"}
 const obj3 = {5:"Five" , 4:"Six"}
 
-// // 1 :  // in this type of methods we will gate a object into the object form means this is not make a proper one object which is add the all object into one
+// // 1 :  // in this type of methods we will get a object into the object form means this is not make a proper one object which is add the all object into one
 // const ans = {obj1 , obj2 , obj3}
 // console.log(ans);
 

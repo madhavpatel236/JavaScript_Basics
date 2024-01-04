@@ -17,5 +17,5 @@ let name4 = `i am a\t student.` // add a tab space
 console.log(name4)
 
 
-let name5 = `i am a\r student at saffrony collage.` // write a contect whis is after the \r 
+let name5 = `i am a\r student at saffrony collage.` // write a contect which is after the \r 
 console.log(name5)
