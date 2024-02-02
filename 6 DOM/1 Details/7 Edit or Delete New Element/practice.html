@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit ir delete the element</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="Language">
+        <li class="1stLang">Javascript</li>
+    </ul>
+</body>
+
+<!-- add the new values in the existing Element -->
+<script>
+    function editLang(newLang){
+        const li = document.createElement('li');
+        li.innerHTML = `${newLang}`
+        document.querySelector('.Language').
+        appendChild(li)
+    }
+    editLang("java");
+    editLang("Swift");
+
+    // optimal aaproch beacuse of the tree travrce
+    function editOptiLang(newLang){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(newLang)) // mainly chand the innerText line 
+        document.querySelector('.Language').
+        appendChild(li)
+    }
+    editOptiLang("HTML")
+    editOptiLang("CSS")
+</script>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="collage.css">
+</head>
+<body>
+
+    <div class="navbar" id="inner" >
+        <div class="hamburger-menu">&#9776;</div>
+        <div class="nav">
+            <span class="nav1">Plesant Design</span>
+            <span class="nav1">Home</span>
+            <span class="nav1">Features</span>
+            <span class="nav1">Contact</span>
+        </div>
+    </div>
+
+    <div class="first">
+        <span class="body1"><h1> Welcome to a pleasant experiance</h1><br> Discover the bueaty of simplicity and elegence</span>
+    </div>
+
+
+    <div class="main">
+        <div class="box1">
+            <span class="s1"><h3>Clean Layout</h3><br>Enjoy a clutter-free and easy to navigate design</span>
+        </div>
+        <div class="box1">
+            <span class="s1"><h3>Soft colors</h3><br>experiance a soothing color palette for a pleasant visual experiance </span>
+
+        </div>
+        <div class="box1">
+            <span> <h3>Responcive Design</h3> <br> Access the website seamlessly on various devices and screen size</span>
+        </div>
+    </div>
+
+
+
+    <script>
+    document.querySelector('.hamburger-menu').addEventListener('click', function() {
+        document.querySelector('.nav').classList.toggle('show');
+    });
+    </script>
+</body>
+</html>

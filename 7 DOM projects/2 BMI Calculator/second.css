@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.containor{
+    /* margin: 0px auto 0px; */
+    height: 645px;
+    width: 100%;
+    background-color: #212121;
+    color: #ffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid black ;
+    border-radius: 10px;
+}

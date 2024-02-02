@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Chanding</title>
+</head>
+
+<body>
+    <div>
+        <h1> Color Changing Project</h1>
+        <button class="Start">Start</button>
+        <button class="Stop">Stop</button>
+    </div>
+    <Script>
+
+        let randomColor = function () {
+            let hax = "0123456789ABCDEF"
+            let color = "#"
+
+            for (i = 0; i < 6; i++) {
+                color += hax[Math.floor(Math.random() * 16)]
+            }
+            return color;
+        }
+
+        let setIntervalID;
+        const StartChanging = function () {
+            setIntervalID = setInterval(Changing, 1000)
+            function Changing() {
+                document.body.style.backgroundColor = randomColor();
+            }
+        }
+
+        const StopChanging = function () {
+            clearInterval(setIntervalID)
+            // setInterval= null
+        }
+
+        document.querySelector(".Start").addEventListener('click', StartChanging)
+        document.querySelector(".Stop").addEventListener('click', StopChanging)
+
+
+    </Script>
+</body>
+
+</html>

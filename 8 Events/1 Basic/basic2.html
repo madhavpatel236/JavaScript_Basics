@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul class="ulList">
+        <li> <img id="one" class="liList1" src="one.jpg" alt="error" style="height: 100px; width: 200px;"></li>
+        <li><img id="two" class="liList2" src="two.jpg" alt="error" style="height: 100px; width: 200px;"></li>
+        <li><img id="three" class="liList3" src="three.jpg" alt="error" style="height: 100px; width: 200px;"></li>
+        <li><img id="four" class="liList4" src="four.jpg" alt="error" style="height: 100px; width: 200px;"></li>
+        <li class="liList5"><a href="https://www.bing.com/search?pglt=641&q=google&cvid=b8014ea337aa4fa9b2f5dddec2bd9d2c&gs_lcrp=EgZjaHJvbWUqBggCEAAYQDIGCAAQRRg5MgYIARAuGEAyBggCEAAYQDIGCAMQRRhBMgYIBBBFGDwyBggFEEUYPDIGCAYQRRg8MgYIBxBFGEEyBggIEEUYQdIBCDQwMjdqMGoxqAIAsAIA&FORM=ANNTA1&PC=NMTS">google</a></li>
+    </ul>
+</body>
+<script>
+    document.querySelector('.ulList').addEventListener('click' , function(e){
+        // console.log(e.target.tagName);
+        if (e.target.tagName === 'IMG') {
+            // console.log(e.target.id);
+            // console.log(e.target.parentNode);
+            let removeIt = e.target.parentNode // give the parent node,   here img ke parent node li haii.
+            removeIt.remove();
+        }
+    })
+</script>
+</html>

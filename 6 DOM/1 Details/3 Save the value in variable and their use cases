@@ -1,0 +1,12 @@
+reference : Chai or code js series vedio: 32
+
+------->>>>> After finding the needed item or values we can save that value in the variable form and that variable was use for that perticular value or attribute.
+
+            // Example :   const red = document.getElementById('description2')
+            //            red.setAttribute('style' , 'color : blue')
+            // 6 DOM/1 Details/3 Save the value in variable and their use cases.png
+
+            - we can use multiple attributes like the Backgroun-color , color , padding , Margin , borderRadius like tha also
+                // Red.style.padding = "values"
+
+                

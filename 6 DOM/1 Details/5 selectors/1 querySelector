@@ -1,0 +1,9 @@
+reference : Chai or code js series vedio: 32
+
+// ------->>>>>>>>> Syntax : document.querySelector('')
+                    
+                    // EX : document.querySelector('h1')  // this syntax means that in this document, from the all h1 we need a firstone h1 only if there are multiple h1 present in the document.
+                    // document.querySelector('#idName')
+                    // document.querySelector('.className')
+                    // document.querySelector('input[type = "Date"]')
+

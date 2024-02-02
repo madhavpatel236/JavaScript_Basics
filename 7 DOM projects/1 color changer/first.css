@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* background-color: #212121; */  /*this is wrong from that line color will not change in the full page because that makes a page color static */
+    color: white;
+}
+span {
+    display: block;
+}
+.containor{
+    margin: 100px auto ; /* top & bottom = 100px , left & right = auto means center  */
+    width: 80%;
+    text-align: center;
+}
+.boxes{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    
+}
+#red{
+    background-color: red;
+}
+#black{
+    background-color: black;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}

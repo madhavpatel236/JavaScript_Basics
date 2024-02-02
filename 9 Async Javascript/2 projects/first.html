@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Madhav Patel </h1>
+    <button class="stop">Stop</button>
+
+</body>
+<script>
+    // syntax: 
+    // setTimeout(function(){
+    //     console.log('Hello');
+    // } ,2000)
+
+    const hello = function(){
+        console.log('hello');
+    }
+    const timeOut = setTimeout(hello, 2000);
+
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = 'Karavadiya'
+    }
+    const change = setTimeout(changeText, 2000);
+
+    // now of we don't want to change the name Madhav Patel to Karavadiya so we stop this event with the stop button like this.
+
+    document.querySelector('.stop').addEventListener('click', function(){
+        clearTimeout(change)
+        console.log("not change");
+    })
+
+</script>
+</html>

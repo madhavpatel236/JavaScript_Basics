@@ -1,8 +1,15 @@
 // +++++++++++++++++++++++++++++++++++++ forof ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-const num = [1,2,3,4,5,6]
+/*
+Syntax : for (const Values of Array/Function/String){
+    ......
+} 
+*/
+// Alert : For the object we cannot use the forof loop.
 
 console.log("---------------------Forof-------------------------");
+
+const num = [1,2,3,4,5,6]
 for (const item of num) {
     console.log(item);
 }
@@ -10,12 +17,9 @@ for (const item of num) {
 
 
 const greeting = "Hello World!"
-
 for (const greet of greeting) {
     console.log(greet);
 }
-
-
 
 // NOTE : For the object we cannot go for the forof loop.
 const myObj  = {
@@ -24,9 +28,9 @@ const myObj  = {
     age : "19"
 }
 
-// for (const data of myObj) {
-//     console.log(data);
-// }
+for (const data of myObj) {
+    console.log(data);
+}
 
 
 
@@ -43,7 +47,7 @@ const variable_Name = array_Name.map( () => )
 
 // // map in the Array
 
-console.log("Map -------------------------------------");
+console.log("----------------Map---------------------");
 const arr = [1,2,3,4,5]
 const test = arr.map( (res) => (res+10))
 // const test = arr.map( (res) => (res[key]))    // wrong 
@@ -95,7 +99,7 @@ const myObj2  = {
     age : "19"
 }
 
-console.log("Forin------------------------------------------------------");
+console.log("-----------------------Forin-------------------------------");
 for (const data in myObj2) {
     console.log(data);
 }

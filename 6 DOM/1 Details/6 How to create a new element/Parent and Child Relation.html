@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a New Element with DOM </title>
+</head>
+<body style="color: white; background-color: #212121;">
+    <ui class="Days">
+        <li class="day">Sunday</li>
+        <li class="day">Monday</li>
+        <li class="day">Tuesday</li>
+        <li class="day">Wednesday</li>
+        <li class="day">Thrusdat</li>
+        <li class="day">Friday</li>
+        <li class="day">Saturday</li>
+    </ui>
+
+    <script>
+        const parent = document.querySelector('.Days')
+        // console.log(parent);
+        // console.log(parent.children); // Here we get aHTML collection
+        // console.log(parent.children[2]); // access the value of the element from the HTML collection.
+        // console.log(parent.children[2].innerHTML); 
+
+        //for loop on the HTML collection
+        for (let i = 0; i < parent.children.length; i++) {
+            // console.log(parent.children[i].innerHTML);
+        }
+
+        // we can also add the style 
+        parent.children[2].style.color = "red"
+
+        // console.log(parent.firstElementChild);
+        // console.log(parent.lastElementChild);
+        
+        const dayOne = document.querySelector('.day');
+        // console.log(dayOne);
+        // console.log(dayOne.nextElementSibling); // from that we go directly to their sibling element.
+        // console.log(dayOne.parentElement); // from that we directly go to the child > Parent element
+    
+        // we can directly go to the child > Parent without using the selectores.
+        console.log("NODES : ", parent.childNodes); // From that we have a NodeList
+
+
+    </script>
+</body>
+</html>

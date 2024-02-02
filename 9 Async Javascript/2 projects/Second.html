@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Parth Patel </h1>
+    <button class="stop">Stop</button>
+    <button class="start">Start</button>
+
+</body>
+<script>
+    var set;
+    // in the steInterval we can also give a third parameter as an value
+    const print = function(name){
+        console.log(name ,Date.now());
+    } 
+    // clearInterval(set)
+
+    document.querySelector('.start').addEventListener('click' , function(){
+        set = setInterval(print ,1000, "madhav")
+    })
+
+    document.querySelector('.stop').addEventListener('click' , function(){
+        clearInterval(set)
+    })
+
+
+
+</script>
+
+</html>

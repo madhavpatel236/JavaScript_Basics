@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.navbar {
+    background-color: #0b129d;
+    padding: 10px;
+}
+
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav1 {
+    padding-left: auto;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+
+.nav1:hover {
+    color: #584807;
+}
+
+
+/* Hamburger Menu Styles */
+.hamburger-menu {
+    margin-left: auto;
+    /* display: flex;
+    justify-content: right;
+    align-items: right ; */
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav{
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #0b129d;
+    }
+
+    .nav.show {
+        display: flex;
+    }
+
+
+    .nav1 {
+        margin: 15px 0;
+    }
+
+
+    .hamburger-menu {
+        display: block;
+    }
+}
+
+.body1{
+    color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.first{
+    background-color: rgb(71, 135, 195);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.main{
+    background-color: rgb(210, 200, 200);
+    height: 300px;
+    padding-top: 50px ;
+    padding-left: 50px ;
+    display: -webkit-flex ;
+    display: flex;
+}
+.box1{
+    height: 150px;
+    width: 340px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(231, 226, 226);
+    border: 1px solid white;
+    border-radius: 5px;
+}

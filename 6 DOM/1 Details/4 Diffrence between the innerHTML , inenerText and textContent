@@ -1,0 +1,16 @@
+reference : Chai or code js series vedio: 32
+
+-------->>>>>>>> There are three way to get the value of that parameter 
+                    (i) innerHTML
+                    (ii) ineerText
+                    (iii) textContent
+
+
+                - (i) innerHTML : 6 DOM/1 Details/4 innerHTML.png
+                        in the innerHTML we get the entire values in which if we have write the HTML then that will also get as HTML    // for more understandind see the both png 
+                
+                - (ii) ineerText : 6 DOM/1 Details/4 innerText and textContent.png
+                        in the ineerText we get the only things which we can see on the browser not the hiding or not like the ineerHTML.
+
+                - (ii) textContent : 6 DOM/1 Details/4 innerText and textContent.png
+                        in the textContent we get the things which we can see on the browser or if in that any content was written then it also select.

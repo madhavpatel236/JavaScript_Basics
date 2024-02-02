@@ -1,0 +1,10 @@
+reference : Chai or code js series vedio:31 & 32
+
+----------->>>>>>>>>> document.getElementById('parameter')   // parameter means that id name
+
+    - in that we have many propery like find the find the class name for that perticular ID from the >>>>>> .className ,
+    for change the details of that perticuler ID we will use the >>>>> .innerHTML = "<>... </>" 
+    For get the perticuler Attributes value of that id we will use the >>>>> .getAttrubute('id , class etc')
+    For change the attribute name directly we will write like this >>>>>> .setAttribute('FirstIDName', 'mostFirstIdName') ,
+    
+

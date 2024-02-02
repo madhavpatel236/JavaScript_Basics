@@ -1,0 +1,11 @@
+reference : Chai or code js series vedio: 32
+
+// ------->>>>>>>>> Syntax : document.querySelectorAll('')  // 6 DOM/1 Details/5 selectors/querySelectorAll.png
+
+                    // EX : document.querySelectorAll('h1') // this syntax means that in this document, all the present tag values are get.
+                        // - from the above example we will get the all h1 tages which is present in the document but it will select in the nodeList form so we can not change their property directly like arrays.
+                        // - so we can get the value like that : 
+                            // (i) Save the document.querySelectorAll('h1') in the variable so >>>>> const myH1 = document.querySelectorAll('h1')
+                            // (ii) now don't do like this myH1.style.padding = "10px" becalue this is only work for the arrays and querySelectorAll is generate the nodeList so their property was differ from the arrays.
+                            // (iii) so do like this myH1[1].style.padding = "10px" // that's how nodeList works.
+                            //       or do like this myH1[2].style.padding = "10px"
